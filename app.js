@@ -7,7 +7,7 @@ $(function(){
 
 
     $('#buscar').keyup(function(){//keyup: Se ejecuta cuando se oprime una tecla
-        let busqueda = $('#buscar').val();//Se obtiene elvalor del formulario de busqueda
+        let busqueda = $('#buscar').val();//Se obtiene el valor del formulario de busqueda
         if($('#buscar').val()){//Se valida si trajo datos
             $.ajax({//metodo ajax de jQuery
                 url: 'task-search.php',  // Direccion donde se van a buscar o enviar los datos
