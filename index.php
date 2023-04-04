@@ -21,9 +21,6 @@
         <ul class="navbar-nav ml-auto">
             <form class="form-inline my-2 my-lg-0">
                 <input type="search" id="buscar" class="form-control mr-sm-2" placeholder="Busca tu tarea">
-                <!-- <button class="btn btn-success my-2 my-sm-0" type="submit">
-                    Buscar
-                </button> -->
             </form>
         </ul>
         <div>
